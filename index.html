@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            padding-left: 15rem;
+            padding-right: 15rem;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .details-heading{
+            margin-bottom: 4rem;
+        }
+
+        .course-form-head-text {
+            display: flex;
+            align-items: center;
+            color: green;
+            margin-bottom: 2rem;
+        }
+
+        .course-form-head-text div {
+            background: green;
+            height: 3rem;
+            width: 1rem;
+            margin-right: 1rem;
+
+        }
+        .nothing, .nothing td{
+            border: none;
+            width: fit-content;
+            text-align: left;
+            color: green;
+        }
+        tr.nothing td{
+            padding-bottom: 1.2rem;
+            font-size: 0.9rem;
+
+        }
+        tr.nothing td:nth-child(2){
+            padding-left: 4rem;
+            font-weight: bold;
+        }
+        .course-form-details{
+            display: flex;
+            justify-content: space-between;
+        }
+        .course-form-details .pictures{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .course-form-details .info div {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .course-form-details .info div p {
+            margin-left: 4rem;
+        }
+
+        table {
+            width: 100%;
+            border: solid 1px black;
+        }
+
+        tr,
+        th,
+        td {
+            border: solid 1px green;
+            text-align: center;
+            color: green
+        }
+
+        tr td:nth-child(2) {
+            text-align: left;
+        }
+
+        p.total-units {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 5rem;
+            color: green;
+        }
+
+        @media only screen and (max-width: 1200px){
+            body {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            padding-left: 0;
+            padding-right:0;
+        }
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="/scrnli_1_16_2024_3-51-48_AM-removebg-preview.png" alt="">
+    </div>
+    <div class="details-heading">
+        <div class="course-form-head-text">
+            <div></div>
+            <h3>COURSE FORM</h3>
+        </div>
+
+        <div class="course-form-details">
+
+            <table class="nothing">
+                <tr class="nothing">
+                    <td><li>Matric. NO.:</li> </td>
+                    <td>F/ND/21/3210034</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>NAME:</li> </td>
+                    <td>EKEOCHA-IBE VICTOR CHINEMEREM</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>PROGRAMME TYPE:</li> </td>
+                    <td>ND(OFFICE TECHNOLOGY MANAGEMENT) FULL-TIME</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>DEPAERTMENT:</li> </td>
+                    <td>OFFICE TECHNOLOGY MANAGEMENT</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>PROGRAMME:</li> </td>
+                    <td>ND(OFFICE TECHNOLOGY MANAGEMENT) FULL-TIME</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>SESSION:</li> </td>
+                    <td>S022/2023</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>SEMESTER:</li> </td>
+                    <td>FIRST SEMESTER</td>
+                </tr>
+                <tr class="nothing">
+                    <td><li>LEVEL:</li> </td>
+                    <td>ND2</td>
+                </tr>
+            </table>
+            <div class="picture">
+                <img src="/FND213210034.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <table>
+        <tr>
+            <th>COURSE CODE</th>
+            <th>COURSE TITLE</th>
+            <th>COURSE STATUS</th>
+            <th>UNIT</th>
+        </tr>
+        <tr>
+            <td>EED216</td>
+            <td>Entrepreneurship Development</td>
+            <td>C</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>GNS201</td>
+            <td>USE OF ENGLISH II</td>
+            <td>C</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>OTM207</td>
+            <td>Beginner's French III</td>
+            <td>C</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>OTM211</td>
+            <td>SHORTHAND III (80WPM)</td>
+            <td>C</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>OTM212</td>
+            <td>KEYBOARDING III (35WPM)</td>
+            <td>C</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>OTM213</td>
+            <td>DESKTOP PUBLISHING</td>
+            <td>C</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>OTM214</td>
+            <td>Office Practice II</td>
+            <td>C</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>OTM228</td>
+            <td>Research Techniques</td>
+            <td>C</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>STA222</td>
+            <td>Statistics</td>
+            <td>C</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <p class="total-units">TOTAL UNITS: 22</p>
+    <!-- <div class="total-units-container"></div> -->
+</body>
+
+</html>
